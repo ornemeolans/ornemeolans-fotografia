@@ -1,0 +1,33 @@
+@import "partials/body";
+@import "partials/footer";
+@import "partials/header";
+@import "partials/section";
+@import "variables/variables";
+
+.navbar-expand-lg .navbar-collapse {
+    flex-direction: row-reverse;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link{
+    color: #5a5959;
+    font-size: 30px;
+}
+span{
+    color:#5a5959;
+}
+.navbar-light .navbar-toggler{
+    color: #5a5959;
+    border: inset;
+}
+
+.navbar-nav{
+    align-items: flex-end;
+}
+
+.fondo{
+    width: 100%;
+}
+
+navbar-nav {
+    font-family: 'acumin-pro-extra-condensed', sans-serif;
+}
