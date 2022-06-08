@@ -43,8 +43,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     align-items: center;
     margin-bottom: 20px;
+    padding: 0px 15px;
     height: 200px;
     h2{
         font-size: $h2-size-dektop;
@@ -63,7 +65,7 @@
         "text text text text"
         "img-1 img-2 img-3 img-4";
     padding-bottom: 20px;
-    background-color: #ffc5b7;
+    background-color: $body-background-color;
 }
 
 .text {
@@ -76,13 +78,13 @@
         display: flex;
         align-items: center;
         margin-bottom: 0px;
-        font-size: $p-size-desktop;
+        font-size: $h2-size-dektop;
     }
 }
 
 .img-1 {
     grid-area: img-1;
-    background-color: #a5cabd;
+    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,7 +134,7 @@
 
 .img-2 {
     grid-area: img-2;
-    background-color: #a5cabd;
+    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -182,7 +184,7 @@
 
 .img-3 {
     grid-area: img-3;
-    background-color: #a5cabd;
+    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -232,7 +234,7 @@
 
 .img-4 {
     grid-area: img-4;
-    background-color: #a5cabd;
+    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -278,4 +280,134 @@
         }
     }
 
+}
+
+.description{
+    display: grid;
+    grid-template-areas: "title-1 title-2 title-3 title-4"
+    "paragraph-1 paragraph-2 paragraph-3 paragraph-4";
+}
+
+.title-1{
+    grid-area: title-1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $footer-background-color;
+    border-radius: 0.7em;
+    padding: 0px 15px;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin-bottom: 0px;
+    }
+}
+
+.title-2{
+    grid-area: title-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $footer-background-color;
+    border-radius: 0.7em;
+    padding: 0px 15px;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin-bottom: 0px;
+    }
+}
+
+.title-3{
+    grid-area: title-3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $footer-background-color;
+    border-radius: 0.7em;
+    padding: 0px 15px;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin-bottom: 0px;
+    }
+}
+
+.title-4{
+    grid-area: title-4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $footer-background-color;
+    border-radius: 0.7em;
+    padding: 0px 15px;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin-bottom: 0px;
+    }
+}
+
+.paragraph-1{
+    grid-area: paragraph-1;
+    padding: 0px 15px;
+    background-color: #ffeae5;
+    border-radius: 0.7em;
+    margin: 15px;
+    p{
+        display: flex;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.paragraph-2{
+    grid-area: paragraph-2;
+    padding: 0px 15px;
+    background-color: #ffeae5;
+    border-radius: 0.7em;
+    margin: 15px;
+    p{
+        display: flex;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.paragraph-3{
+    grid-area: paragraph-3;
+    padding: 0px 15px;
+    background-color: #ffeae5;
+    border-radius: 0.7em;
+    margin: 15px;
+    p{
+        display: flex;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.paragraph-4{
+    grid-area: paragraph-4;
+    padding: 0px 15px;
+    background-color: #ffeae5;
+    border-radius: 0.7em;
+    margin: 15px;
+    p{
+        display: flex;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
 }

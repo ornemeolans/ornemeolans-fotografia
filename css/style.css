@@ -68,8 +68,10 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
   align-items: center;
   margin-bottom: 20px;
+  padding: 0px 15px;
   height: 200px; }
   .pages-banner h2 {
     font-size: 50px;
@@ -94,11 +96,11 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 0px;
-    font-size: 25px; }
+    font-size: 50px; }
 
 .img-1 {
   grid-area: img-1;
-  background-color: #a5cabd;
+  background-color: #bdcdc8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +138,7 @@ header {
 
 .img-2 {
   grid-area: img-2;
-  background-color: #a5cabd;
+  background-color: #bdcdc8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,7 +176,7 @@ header {
 
 .img-3 {
   grid-area: img-3;
-  background-color: #a5cabd;
+  background-color: #bdcdc8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,7 +214,7 @@ header {
 
 .img-4 {
   grid-area: img-4;
-  background-color: #a5cabd;
+  background-color: #bdcdc8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -247,6 +249,118 @@ header {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.5);
       border-radius: 0.4em; }
+
+.description {
+  display: grid;
+  grid-template-areas: "title-1 title-2 title-3 title-4" "paragraph-1 paragraph-2 paragraph-3 paragraph-4"; }
+
+.title-1 {
+  grid-area: title-1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bdcdc8;
+  border-radius: 0.7em;
+  padding: 0px 15px;
+  margin: 15px; }
+  .title-1 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px; }
+
+.title-2 {
+  grid-area: title-2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bdcdc8;
+  border-radius: 0.7em;
+  padding: 0px 15px;
+  margin: 15px; }
+  .title-2 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px; }
+
+.title-3 {
+  grid-area: title-3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bdcdc8;
+  border-radius: 0.7em;
+  padding: 0px 15px;
+  margin: 15px; }
+  .title-3 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px; }
+
+.title-4 {
+  grid-area: title-4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #bdcdc8;
+  border-radius: 0.7em;
+  padding: 0px 15px;
+  margin: 15px; }
+  .title-4 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 0px; }
+
+.paragraph-1 {
+  grid-area: paragraph-1;
+  padding: 0px 15px;
+  background-color: #ffeae5;
+  border-radius: 0.7em;
+  margin: 15px; }
+  .paragraph-1 p {
+    display: flex;
+    text-align: justify;
+    font-size: 25px; }
+
+.paragraph-2 {
+  grid-area: paragraph-2;
+  padding: 0px 15px;
+  background-color: #ffeae5;
+  border-radius: 0.7em;
+  margin: 15px; }
+  .paragraph-2 p {
+    display: flex;
+    text-align: justify;
+    font-size: 25px; }
+
+.paragraph-3 {
+  grid-area: paragraph-3;
+  padding: 0px 15px;
+  background-color: #ffeae5;
+  border-radius: 0.7em;
+  margin: 15px; }
+  .paragraph-3 p {
+    display: flex;
+    text-align: justify;
+    font-size: 25px; }
+
+.paragraph-4 {
+  grid-area: paragraph-4;
+  padding: 0px 15px;
+  background-color: #ffeae5;
+  border-radius: 0.7em;
+  margin: 15px; }
+  .paragraph-4 p {
+    display: flex;
+    text-align: justify;
+    font-size: 25px; }
 
 .navbar-expand-lg .navbar-collapse {
   flex-direction: row-reverse; }
