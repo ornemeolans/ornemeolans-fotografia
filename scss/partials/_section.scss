@@ -62,8 +62,8 @@
 .gallery {
     display: grid;
     grid-template-areas:
-        "text text text text"
-        "img-1 img-2 img-3 img-4";
+        "text"
+        "imag";
     padding-bottom: 20px;
     background-color: $body-background-color;
 }
@@ -82,9 +82,15 @@
     }
 }
 
+.imag{
+    grid-area: imag;
+    display: grid;
+    grid-template-areas: "img-1 img-2 img-3 img-4";
+    background-color: $footer-background-color;
+}
+
 .img-1 {
     grid-area: img-1;
-    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,7 +140,6 @@
 
 .img-2 {
     grid-area: img-2;
-    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,7 +189,6 @@
 
 .img-3 {
     grid-area: img-3;
-    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -234,7 +238,6 @@
 
 .img-4 {
     grid-area: img-4;
-    background-color: $footer-background-color;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -363,7 +366,7 @@
 .paragraph-1{
     grid-area: paragraph-1;
     padding: 0px 15px;
-    background-color: #ffeae5;
+    background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
     p{
@@ -376,7 +379,7 @@
 .paragraph-2{
     grid-area: paragraph-2;
     padding: 0px 15px;
-    background-color: #ffeae5;
+    background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
     p{
@@ -389,7 +392,7 @@
 .paragraph-3{
     grid-area: paragraph-3;
     padding: 0px 15px;
-    background-color: #ffeae5;
+    background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
     p{
@@ -402,12 +405,173 @@
 .paragraph-4{
     grid-area: paragraph-4;
     padding: 0px 15px;
-    background-color: #ffeae5;
+    background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
     p{
         display: flex;
         text-align: justify;
         font-size: $p-size-desktop;
+    }
+}
+
+.sessions{
+    display: grid;
+    grid-template-areas: "txt-1 img-1 txt-2 img-2"
+    "txt-3 img-3 txt-4 img-4";
+}
+
+.txt-1{
+    grid-area: txt-1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-1{
+    grid-area: img-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.txt-2{
+    grid-area: txt-2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-2{
+    grid-area: img-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.txt-3{
+    grid-area: txt-3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-3{
+    grid-area: img-3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.txt-4{
+    grid-area: txt-4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+    }
+    p{
+        display: flex;
+        align-items: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-4{
+    grid-area: img-4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+
+.contact{
+    display: grid;
+    grid-template-areas: "form date";
+}
+
+.form{
+    grid-area: form;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    background-color: $footer-background-color;
+    border-radius: 0.7em;
+    article{
+        padding: 15px;
+        input{
+            border-color: $grid-blackground-color;
+            border-radius: 0.5em;
+            background-color: $grid-blackground-color;
+        }
+    }
+}
+
+.date{
+    grid-area: date;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 15px;
+    background-color: $grid-blackground-color;
+    border-radius: 0.7em;
+
+    a{
+        margin: 15px;
+        text-decoration: none;
+        color: #000000;
+        font-size: $a-size-desktop;
+        img{
+            width: 30px;
+        }
     }
 }
