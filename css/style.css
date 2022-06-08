@@ -102,14 +102,18 @@ header {
   grid-area: imag;
   display: grid;
   grid-template-areas: "img-1 img-2 img-3 img-4";
-  background-color: #bdcdc8; }
+  background-color: #bdcdc8;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .img-1 {
   grid-area: img-1;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  width: 100%; }
   .img-1 .subimg-1 {
     width: 100%;
     position: relative;
@@ -120,7 +124,7 @@ header {
     .img-1 .subimg-1 img {
       display: flex;
       justify-content: center;
-      max-width: 250px;
+      width: 250px;
       border-radius: 0.4em; }
     .img-1 .subimg-1 .txt {
       position: absolute;
@@ -146,7 +150,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  width: 100%; }
   .img-2 .subimg-2 {
     width: 100%;
     position: relative;
@@ -157,7 +162,7 @@ header {
     .img-2 .subimg-2 img {
       display: flex;
       justify-content: center;
-      max-width: 250px;
+      width: 250px;
       border-radius: 0.4em; }
     .img-2 .subimg-2 .txt {
       position: absolute;
@@ -183,7 +188,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  width: 100%; }
   .img-3 .subimg-3 {
     width: 100%;
     position: relative;
@@ -194,7 +200,7 @@ header {
     .img-3 .subimg-3 img {
       display: flex;
       justify-content: center;
-      max-width: 250px;
+      width: 250px;
       border-radius: 0.4em; }
     .img-3 .subimg-3 .txt {
       position: absolute;
@@ -220,7 +226,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px; }
+  padding: 20px 0px;
+  width: 100%; }
   .img-4 .subimg-4 {
     width: 100%;
     position: relative;
@@ -231,7 +238,7 @@ header {
     .img-4 .subimg-4 img {
       display: flex;
       justify-content: center;
-      max-width: 250px;
+      width: 250px;
       border-radius: 0.4em; }
     .img-4 .subimg-4 .txt {
       position: absolute;
@@ -390,7 +397,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px; }
+  margin: 15px;
+  width: 50%; }
 
 .txt-2 {
   grid-area: txt-2;
@@ -414,7 +422,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px; }
+  margin: 15px;
+  width: 50%; }
 
 .txt-3 {
   grid-area: txt-3;
@@ -438,7 +447,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px; }
+  margin: 15px;
+  width: 50%; }
 
 .txt-4 {
   grid-area: txt-4;
@@ -462,7 +472,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px; }
+  margin: 15px;
+  width: 50%; }
 
 .contact {
   display: grid;
@@ -498,6 +509,106 @@ header {
     font-size: 30px; }
     .date a img {
       width: 30px; }
+
+.history {
+  display: grid;
+  grid-template-areas: "txt-1 img-1 txt-2 img-2" "img-3 txt-3 img-4 txt-4"; }
+
+.txt-1 {
+  grid-area: txt-1;
+  display: flex;
+  align-items: stretch; }
+  .txt-1 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px; }
+  .txt-1 p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 25px; }
+
+.img-1 {
+  grid-area: img-1;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .img-1 img {
+    width: 50%; }
+
+.txt-2 {
+  grid-area: txt-2;
+  display: flex;
+  align-items: stretch; }
+  .txt-2 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px; }
+  .txt-2 p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 25px; }
+
+.img-2 {
+  grid-area: img-2;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .img-2 img {
+    width: 50%; }
+
+.txt-3 {
+  grid-area: txt-3;
+  display: flex;
+  align-items: stretch; }
+  .txt-3 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px; }
+  .txt-3 p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 25px; }
+
+.img-3 {
+  grid-area: img-3;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .img-3 img {
+    width: 50%; }
+
+.txt-4 {
+  grid-area: txt-4;
+  display: flex;
+  align-items: stretch; }
+  .txt-4 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    margin: 15px; }
+  .txt-4 p {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 25px; }
+
+.img-4 {
+  grid-area: img-4;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .img-4 img {
+    width: 50%; }
 
 .navbar-expand-lg .navbar-collapse {
   flex-direction: row-reverse; }

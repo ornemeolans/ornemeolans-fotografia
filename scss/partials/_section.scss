@@ -87,6 +87,9 @@
     display: grid;
     grid-template-areas: "img-1 img-2 img-3 img-4";
     background-color: $footer-background-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .img-1 {
@@ -95,6 +98,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    width: 100%;
 
     .subimg-1 {
         width: 100%;
@@ -107,7 +111,7 @@
         img {
             display: flex;
             justify-content: center;
-            max-width: 250px;
+            width: 250px;
             border-radius: 0.4em;
         }
 
@@ -144,6 +148,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    width: 100%;
 
     .subimg-2 {
         width: 100%;
@@ -156,7 +161,7 @@
         img {
             display: flex;
             justify-content: center;
-            max-width: 250px;
+            width: 250px;
             border-radius: 0.4em;
         }
 
@@ -193,6 +198,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    width: 100%;
 
     .subimg-3 {
         width: 100%;
@@ -205,7 +211,7 @@
         img {
             display: flex;
             justify-content: center;
-            max-width: 250px;
+            width: 250px;
             border-radius: 0.4em;
         }
 
@@ -242,6 +248,7 @@
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    width: 100%;
 
     .subimg-4 {
         width: 100%;
@@ -254,7 +261,7 @@
         img {
             display: flex;
             justify-content: center;
-            max-width: 250px;
+            width: 250px;
             border-radius: 0.4em;
         }
 
@@ -447,6 +454,7 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
+    width: 50%;
 }
 
 .txt-2{
@@ -475,6 +483,7 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
+    width: 50%;
 }
 
 .txt-3{
@@ -503,6 +512,7 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
+    width: 50%;
 }
 
 .txt-4{
@@ -531,6 +541,7 @@
     justify-content: center;
     align-items: center;
     margin: 15px;
+    width: 50%;
 }
 
 .contact{
@@ -573,5 +584,127 @@
         img{
             width: 30px;
         }
+    }
+}
+
+.history{
+    display: grid;
+    grid-template-areas: "txt-1 img-1 txt-2 img-2"
+    "img-3 txt-3 img-4 txt-4";
+}
+
+.txt-1{
+    grid-area: txt-1;
+    display: flex;
+    align-items: stretch;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin: 15px;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-1{
+    grid-area: img-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 50%;
+    }
+}
+
+.txt-2{
+    grid-area: txt-2;
+    display: flex;
+    align-items: stretch;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin: 15px;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-2{
+    grid-area: img-2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 50%;
+    }
+}
+
+.txt-3{
+    grid-area: txt-3;
+    display: flex;
+    align-items: stretch;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin: 15px;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-3{
+    grid-area: img-3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 50%;
+    }
+}
+
+.txt-4{
+    grid-area: txt-4;
+    display: flex;
+    align-items: stretch;
+    h3{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: $h3-size-dektop;
+        margin: 15px;
+    }
+    p{
+        display: flex;
+        justify-content: center;
+        text-align: justify;
+        font-size: $p-size-desktop;
+    }
+}
+
+.img-4{
+    grid-area: img-4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 50%;
     }
 }
