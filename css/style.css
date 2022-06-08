@@ -64,6 +64,21 @@ header {
       display: flex;
       justify-content: center; }
 
+.pages-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  height: 200px; }
+  .pages-banner h2 {
+    font-size: 50px;
+    color: #000000;
+    margin: 10px 0px; }
+  .pages-banner p {
+    font-size: 25px;
+    margin: 5px 5px; }
+
 .gallery {
   display: grid;
   grid-template-areas: "text text text text" "img-1 img-2 img-3 img-4";
@@ -95,25 +110,25 @@ header {
     justify-content: center;
     align-items: center;
     cursor: pointer; }
-    .img-1 .subimg-1 a {
+    .img-1 .subimg-1 img {
       display: flex;
-      justify-content: center; }
-      .img-1 .subimg-1 a img {
-        max-width: 250px;
-        border-radius: 0.4em; }
+      justify-content: center;
+      max-width: 250px;
+      border-radius: 0.4em; }
     .img-1 .subimg-1 .txt {
       position: absolute;
       width: 250px;
+      height: 100%;
       transition: all .3s;
       opacity: 0; }
-      .img-1 .subimg-1 .txt h3 {
+      .img-1 .subimg-1 .txt a {
+        text-decoration: none;
         color: #ffffff;
-        text-align: center;
+        font-size: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0px;
-        height: 166.2px; }
+        height: 100%; }
     .img-1 .subimg-1:hover .txt {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.5);
@@ -133,25 +148,25 @@ header {
     justify-content: center;
     align-items: center;
     cursor: pointer; }
-    .img-2 .subimg-2 a {
+    .img-2 .subimg-2 img {
       display: flex;
-      justify-content: center; }
-      .img-2 .subimg-2 a img {
-        max-width: 250px;
-        border-radius: 0.4em; }
+      justify-content: center;
+      max-width: 250px;
+      border-radius: 0.4em; }
     .img-2 .subimg-2 .txt {
       position: absolute;
       width: 250px;
+      height: 100%;
       transition: all .3s;
       opacity: 0; }
-      .img-2 .subimg-2 .txt h3 {
+      .img-2 .subimg-2 .txt a {
+        text-decoration: none;
         color: #ffffff;
-        text-align: center;
+        font-size: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0px;
-        height: 166.2px; }
+        height: 100%; }
     .img-2 .subimg-2:hover .txt {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.5);
@@ -171,25 +186,25 @@ header {
     justify-content: center;
     align-items: center;
     cursor: pointer; }
-    .img-3 .subimg-3 a {
+    .img-3 .subimg-3 img {
       display: flex;
-      justify-content: center; }
-      .img-3 .subimg-3 a img {
-        max-width: 250px;
-        border-radius: 0.4em; }
+      justify-content: center;
+      max-width: 250px;
+      border-radius: 0.4em; }
     .img-3 .subimg-3 .txt {
       position: absolute;
       width: 250px;
+      height: 100%;
       transition: all .3s;
       opacity: 0; }
-      .img-3 .subimg-3 .txt h3 {
+      .img-3 .subimg-3 .txt a {
+        text-decoration: none;
         color: #ffffff;
-        text-align: center;
+        font-size: 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0px;
-        height: 166.2px; }
+        height: 100%; }
     .img-3 .subimg-3:hover .txt {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.5);
@@ -209,25 +224,25 @@ header {
     justify-content: center;
     align-items: center;
     cursor: pointer; }
-    .img-4 .subimg-4 a {
+    .img-4 .subimg-4 img {
       display: flex;
-      justify-content: center; }
-      .img-4 .subimg-4 a img {
-        max-width: 250px;
-        border-radius: 0.4em; }
+      justify-content: center;
+      max-width: 250px;
+      border-radius: 0.4em; }
     .img-4 .subimg-4 .txt {
       position: absolute;
       width: 250px;
+      height: 100%;
       transition: all .3s;
       opacity: 0; }
-      .img-4 .subimg-4 .txt h3 {
+      .img-4 .subimg-4 .txt a {
+        text-decoration: none;
+        font-size: 30px;
         color: #ffffff;
-        text-align: center;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0px;
-        height: 166.2px; }
+        height: 100%; }
     .img-4 .subimg-4:hover .txt {
       opacity: 1;
       background-color: rgba(0, 0, 0, 0.5);

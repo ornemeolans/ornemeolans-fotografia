@@ -37,6 +37,24 @@
     }
 }
 
+.pages-banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    height: 200px;
+    h2{
+        font-size: 50px;
+        color: #000000;
+        margin: 10px 0px;
+    }
+    p{
+        font-size: 25px;
+        margin: 5px 5px;
+    }
+}
+
 .gallery {
     display: grid;
     grid-template-areas:
@@ -76,32 +94,31 @@
         align-items: center;
         cursor: pointer;
 
-        a {
+        img {
             display: flex;
             justify-content: center;
-
-            img {
-                max-width: 250px;
-                border-radius: 0.4em;
-            }
+            max-width: 250px;
+            border-radius: 0.4em;
         }
 
         .txt {
             position: absolute;
             width: 250px;
+            height: 100%;
             transition: all .3s;
             opacity: 0;
 
-            h3 {
+            a {
+                text-decoration: none;
                 color: #ffffff;
-                text-align: center;
+                font-size: 30px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 0px;
-                height: 166.2px;
+                height: 100%;
             }
         }
+
         &:hover .txt {
             opacity: 1;
             background-color: rgba($color: #000000, $alpha: 0.5);
@@ -127,32 +144,31 @@
         align-items: center;
         cursor: pointer;
 
-        a {
+        img {
             display: flex;
             justify-content: center;
-
-            img {
-                max-width: 250px;
-                border-radius: 0.4em;
-            }
+            max-width: 250px;
+            border-radius: 0.4em;
         }
 
         .txt {
             position: absolute;
             width: 250px;
+            height: 100%;
             transition: all .3s;
             opacity: 0;
 
-            h3 {
+            a {
+                text-decoration: none;
                 color: #ffffff;
-                text-align: center;
+                font-size: 30px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 0px;
-                height: 166.2px;
+                height: 100%;
             }
         }
+
         &:hover .txt {
             opacity: 1;
             background-color: rgba($color: #000000, $alpha: 0.5);
@@ -178,32 +194,31 @@
         align-items: center;
         cursor: pointer;
 
-        a {
+        img {
             display: flex;
             justify-content: center;
-
-            img {
-                max-width: 250px;
-                border-radius: 0.4em;
-            }
+            max-width: 250px;
+            border-radius: 0.4em;
         }
 
         .txt {
             position: absolute;
             width: 250px;
+            height: 100%;
             transition: all .3s;
             opacity: 0;
 
-            h3 {
+            a {
+                text-decoration: none;
                 color: #ffffff;
-                text-align: center;
+                font-size: 30px;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 0px;
-                height: 166.2px;
+                height: 100%;
             }
         }
+
         &:hover .txt {
             opacity: 1;
             background-color: rgba($color: #000000, $alpha: 0.5);
@@ -229,32 +244,31 @@
         align-items: center;
         cursor: pointer;
 
-        a {
+        img {
             display: flex;
             justify-content: center;
-
-            img {
-                max-width: 250px;
-                border-radius: 0.4em;
-            }
+            max-width: 250px;
+            border-radius: 0.4em;
         }
 
         .txt {
             position: absolute;
             width: 250px;
+            height: 100%;
             transition: all .3s;
             opacity: 0;
 
-            h3 {
+            a {
+                text-decoration: none;
+                font-size: 30px;
                 color: #ffffff;
-                text-align: center;
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                margin-bottom: 0px;
-                height: 166.2px;
+                height: 100%;
             }
         }
+
         &:hover .txt {
             opacity: 1;
             background-color: rgba($color: #000000, $alpha: 0.5);
