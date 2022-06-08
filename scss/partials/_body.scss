@@ -1,3 +1,5 @@
+@import "../variables/variables";
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,7 +12,7 @@ body {
     font-stretch: extra-condensed;
     font-weight: lighter;
     position: relative;
-    background-color: #ffc5b7;
+    background-color: $body-background-color;
     padding-bottom: 75px;
     min-height: 100vh;
 }

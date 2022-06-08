@@ -47,7 +47,7 @@ header {
     align-items: center;
     height: 100%; }
     .banner .call-to-action p {
-      font-size: 20px;
+      font-size: 25px;
       text-align: center;
       margin-bottom: 70px;
       padding: 5px 15px;
@@ -94,7 +94,7 @@ header {
     display: flex;
     align-items: center;
     margin-bottom: 0px;
-    font-size: 50px; }
+    font-size: 25px; }
 
 .img-1 {
   grid-area: img-1;

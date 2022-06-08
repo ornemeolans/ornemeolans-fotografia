@@ -1,3 +1,5 @@
+@import "../variables/variables";
+
 .banner {
     height: 500px;
     background-image: url(assets/img/seccion-bienvenida.jpg);
@@ -15,7 +17,7 @@
         height: 100%;
 
         p {
-            font-size: 20px;
+            font-size: $p-size-desktop;
             text-align: center;
             margin-bottom: 70px;
             padding: 5px 15px;
@@ -24,7 +26,7 @@
         }
 
         h1 {
-            font-size: 60px;
+            font-size: $h1-size-desktop;
             font-weight: lighter;
             color: #ffeae5;
             padding: 15px 35px;
@@ -45,12 +47,12 @@
     margin-bottom: 20px;
     height: 200px;
     h2{
-        font-size: 50px;
+        font-size: $h2-size-dektop;
         color: #000000;
         margin: 10px 0px;
     }
     p{
-        font-size: 25px;
+        font-size: $p-size-desktop;
         margin: 5px 5px;
     }
 }
@@ -74,7 +76,7 @@
         display: flex;
         align-items: center;
         margin-bottom: 0px;
-        font-size: 50px
+        font-size: $p-size-desktop;
     }
 }
 
@@ -111,7 +113,7 @@
             a {
                 text-decoration: none;
                 color: #ffffff;
-                font-size: 30px;
+                font-size: $a-size-desktop;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -161,7 +163,7 @@
             a {
                 text-decoration: none;
                 color: #ffffff;
-                font-size: 30px;
+                font-size: $a-size-desktop;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -211,7 +213,7 @@
             a {
                 text-decoration: none;
                 color: #ffffff;
-                font-size: 30px;
+                font-size: $a-size-desktop;
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -260,7 +262,7 @@
 
             a {
                 text-decoration: none;
-                font-size: 30px;
+                font-size: $a-size-desktop;
                 color: #ffffff;
                 display: flex;
                 justify-content: center;
