@@ -39,7 +39,7 @@
     }
 }
 
-.pages-banner{
+.pages-banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,14 +48,26 @@
     margin-bottom: 20px;
     padding: 0px 15px;
     height: 200px;
-    h2{
+
+    h2 {
         font-size: $h2-size-dektop;
         color: #000000;
         margin: 10px 0px;
     }
-    p{
+
+    p {
         font-size: $p-size-desktop;
         margin: 5px 5px;
+    }
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+
+    .carousel {
+        display: inline-flex;
+        width: 50%;
     }
 }
 
@@ -82,7 +94,7 @@
     }
 }
 
-.imag{
+.imag {
     grid-area: imag;
     display: grid;
     grid-template-areas: "img-1 img-2 img-3 img-4";
@@ -292,13 +304,13 @@
 
 }
 
-.description{
+.description {
     display: grid;
     grid-template-areas: "title-1 title-2 title-3 title-4"
-    "paragraph-1 paragraph-2 paragraph-3 paragraph-4";
+        "paragraph-1 paragraph-2 paragraph-3 paragraph-4";
 }
 
-.title-1{
+.title-1 {
     grid-area: title-1;
     display: flex;
     align-items: center;
@@ -307,7 +319,8 @@
     border-radius: 0.7em;
     padding: 0px 15px;
     margin: 15px;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -316,7 +329,7 @@
     }
 }
 
-.title-2{
+.title-2 {
     grid-area: title-2;
     display: flex;
     align-items: center;
@@ -325,7 +338,8 @@
     border-radius: 0.7em;
     padding: 0px 15px;
     margin: 15px;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -334,7 +348,7 @@
     }
 }
 
-.title-3{
+.title-3 {
     grid-area: title-3;
     display: flex;
     align-items: center;
@@ -343,7 +357,8 @@
     border-radius: 0.7em;
     padding: 0px 15px;
     margin: 15px;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -352,7 +367,7 @@
     }
 }
 
-.title-4{
+.title-4 {
     grid-area: title-4;
     display: flex;
     align-items: center;
@@ -361,7 +376,8 @@
     border-radius: 0.7em;
     padding: 0px 15px;
     margin: 15px;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
@@ -370,77 +386,83 @@
     }
 }
 
-.paragraph-1{
+.paragraph-1 {
     grid-area: paragraph-1;
     padding: 0px 15px;
     background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
-    p{
+
+    p {
         display: flex;
         text-align: justify;
         font-size: $p-size-desktop;
     }
 }
 
-.paragraph-2{
+.paragraph-2 {
     grid-area: paragraph-2;
     padding: 0px 15px;
     background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
-    p{
+
+    p {
         display: flex;
         text-align: justify;
         font-size: $p-size-desktop;
     }
 }
 
-.paragraph-3{
+.paragraph-3 {
     grid-area: paragraph-3;
     padding: 0px 15px;
     background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
-    p{
+
+    p {
         display: flex;
         text-align: justify;
         font-size: $p-size-desktop;
     }
 }
 
-.paragraph-4{
+.paragraph-4 {
     grid-area: paragraph-4;
     padding: 0px 15px;
     background-color: $grid-blackground-color;
     border-radius: 0.7em;
     margin: 15px;
-    p{
+
+    p {
         display: flex;
         text-align: justify;
         font-size: $p-size-desktop;
     }
 }
 
-.sessions{
+.sessions {
     display: grid;
-    grid-template-areas: "txt-1 img-1 txt-2 img-2"
-    "txt-3 img-3 txt-4 img-4";
+    grid-template-areas: "txt-1 txt-2 txt-3"
+    "img-1 img-2 img-3";
 }
 
-.txt-1{
+.txt-1 {
     grid-area: txt-1;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: $h3-size-dektop;
     }
-    p{
+
+    p {
         display: flex;
         align-items: center;
         text-align: justify;
@@ -448,28 +470,30 @@
     }
 }
 
-.img-1{
+.img-1 {
     grid-area: img-1;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
-    width: 50%;
+    width: 90%;
 }
 
-.txt-2{
+.txt-2 {
     grid-area: txt-2;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: $h3-size-dektop;
     }
-    p{
+
+    p {
         display: flex;
         align-items: center;
         text-align: justify;
@@ -477,28 +501,30 @@
     }
 }
 
-.img-2{
+.img-2 {
     grid-area: img-2;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
-    width: 50%;
+    width: 90%;
 }
 
-.txt-3{
+.txt-3 {
     grid-area: txt-3;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 15px;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: $h3-size-dektop;
     }
-    p{
+
+    p {
         display: flex;
         align-items: center;
         text-align: justify;
@@ -506,59 +532,32 @@
     }
 }
 
-.img-3{
+.img-3 {
     grid-area: img-3;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
-    width: 50%;
+    width: 90%;
 }
 
-.txt-4{
-    grid-area: txt-4;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 15px;
-    h3{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        font-size: $h3-size-dektop;
-    }
-    p{
-        display: flex;
-        align-items: center;
-        text-align: justify;
-        font-size: $p-size-desktop;
-    }
-}
-
-.img-4{
-    grid-area: img-4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 15px;
-    width: 50%;
-}
-
-.contact{
+.contact {
     display: grid;
     grid-template-areas: "form date";
 }
 
-.form{
+.form {
     grid-area: form;
     display: flex;
     flex-direction: column;
     margin: 15px;
     background-color: $footer-background-color;
     border-radius: 0.7em;
-    article{
+
+    article {
         padding: 15px;
-        input{
+
+        input {
             border-color: $grid-blackground-color;
             border-radius: 0.5em;
             background-color: $grid-blackground-color;
@@ -566,7 +565,7 @@
     }
 }
 
-.date{
+.date {
     grid-area: date;
     display: flex;
     justify-content: center;
@@ -576,35 +575,38 @@
     background-color: $grid-blackground-color;
     border-radius: 0.7em;
 
-    a{
+    a {
         margin: 15px;
         text-decoration: none;
         color: #000000;
         font-size: $a-size-desktop;
-        img{
+
+        img {
             width: 30px;
         }
     }
 }
 
-.history{
+.history {
     display: grid;
     grid-template-areas: "txt-1 img-1 txt-2 img-2"
-    "img-3 txt-3 img-4 txt-4";
+        "img-3 txt-3 img-4 txt-4";
 }
 
-.txt-1{
+.txt-1 {
     grid-area: txt-1;
     display: flex;
     align-items: stretch;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: $h3-size-dektop;
         margin: 15px;
     }
-    p{
+
+    p {
         display: flex;
         justify-content: center;
         text-align: justify;
@@ -612,28 +614,31 @@
     }
 }
 
-.img-1{
+.img-1 {
     grid-area: img-1;
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
+
+    img {
         width: 50%;
     }
 }
 
-.txt-2{
+.txt-2 {
     grid-area: txt-2;
     display: flex;
     align-items: stretch;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: $h3-size-dektop;
         margin: 15px;
     }
-    p{
+
+    p {
         display: flex;
         justify-content: center;
         text-align: justify;
@@ -641,28 +646,31 @@
     }
 }
 
-.img-2{
+.img-2 {
     grid-area: img-2;
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
+
+    img {
         width: 50%;
     }
 }
 
-.txt-3{
+.txt-3 {
     grid-area: txt-3;
     display: flex;
     align-items: stretch;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: $h3-size-dektop;
         margin: 15px;
     }
-    p{
+
+    p {
         display: flex;
         justify-content: center;
         text-align: justify;
@@ -670,28 +678,31 @@
     }
 }
 
-.img-3{
+.img-3 {
     grid-area: img-3;
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
+
+    img {
         width: 50%;
     }
 }
 
-.txt-4{
+.txt-4 {
     grid-area: txt-4;
     display: flex;
     align-items: stretch;
-    h3{
+
+    h3 {
         display: flex;
         justify-content: center;
         text-align: center;
         font-size: $h3-size-dektop;
         margin: 15px;
     }
-    p{
+
+    p {
         display: flex;
         justify-content: center;
         text-align: justify;
@@ -699,12 +710,13 @@
     }
 }
 
-.img-4{
+.img-4 {
     grid-area: img-4;
     display: flex;
     justify-content: center;
     align-items: center;
-    img{
+
+    img {
         width: 50%;
     }
 }
