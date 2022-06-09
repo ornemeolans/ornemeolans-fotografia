@@ -596,7 +596,7 @@
 .txt-1 {
     grid-area: txt-1;
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
 
     h3 {
         display: flex;
@@ -628,7 +628,7 @@
 .txt-2 {
     grid-area: txt-2;
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
 
     h3 {
         display: flex;
@@ -660,7 +660,7 @@
 .txt-3 {
     grid-area: txt-3;
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
 
     h3 {
         display: flex;
@@ -692,7 +692,7 @@
 .txt-4 {
     grid-area: txt-4;
     display: flex;
-    align-items: stretch;
+    flex-direction: column;
 
     h3 {
         display: flex;

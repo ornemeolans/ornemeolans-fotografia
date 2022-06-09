@@ -499,7 +499,7 @@ header {
 .txt-1 {
   grid-area: txt-1;
   display: flex;
-  align-items: stretch; }
+  flex-direction: column; }
   .txt-1 h3 {
     display: flex;
     justify-content: center;
@@ -523,7 +523,7 @@ header {
 .txt-2 {
   grid-area: txt-2;
   display: flex;
-  align-items: stretch; }
+  flex-direction: column; }
   .txt-2 h3 {
     display: flex;
     justify-content: center;
@@ -547,7 +547,7 @@ header {
 .txt-3 {
   grid-area: txt-3;
   display: flex;
-  align-items: stretch; }
+  flex-direction: column; }
   .txt-3 h3 {
     display: flex;
     justify-content: center;
@@ -571,7 +571,7 @@ header {
 .txt-4 {
   grid-area: txt-4;
   display: flex;
-  align-items: stretch; }
+  flex-direction: column; }
   .txt-4 h3 {
     display: flex;
     justify-content: center;
