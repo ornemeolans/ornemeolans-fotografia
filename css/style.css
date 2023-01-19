@@ -103,12 +103,13 @@ header {
       font-size: 50px; }
   .imag {
     grid-area: imag;
-    display: grid;
-    grid-template-areas: "img-1 img-2 img-3 img-4";
     background-color: #bdcdc8;
     display: flex;
     justify-content: center;
     align-items: center; }
+  .jpg {
+    display: grid;
+    grid-template-areas: "img-1 img-2 img-3 img-4"; }
   .img-1 {
     grid-area: img-1;
     display: flex;
@@ -650,12 +651,13 @@ header {
       font-size: 45px; }
   .imag {
     grid-area: imag;
-    display: grid;
-    grid-template-areas: "img-1 img-2" "img-3 img-4";
     background-color: #bdcdc8;
     display: flex;
     justify-content: center;
     align-items: center; }
+  .jpg {
+    display: grid;
+    grid-template-areas: "img-1 img-2" "img-3 img-4"; }
   .img-1 {
     grid-area: img-1;
     display: flex;
@@ -1197,12 +1199,13 @@ header {
       font-size: 40px; }
   .imag {
     grid-area: imag;
-    display: grid;
-    grid-template-areas: "img-1" "img-2" "img-3" "img-4";
     background-color: #bdcdc8;
     display: flex;
     justify-content: center;
     align-items: center; }
+  .jpg {
+    display: grid;
+    grid-template-areas: "img-1" "img-2" "img-3" "img-4"; }
   .img-1 {
     grid-area: img-1;
     display: flex;
