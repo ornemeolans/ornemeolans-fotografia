@@ -72,7 +72,7 @@ header {
     align-items: center;
     margin-bottom: 20px;
     padding: 0px 15px;
-    height: 200px; }
+    height: 100%; }
     .pages-banner h2 {
       font-size: 50px;
       color: #000000;
@@ -85,7 +85,7 @@ header {
     justify-content: center; }
     .photos .carousel {
       display: inline-flex;
-      width: 50%; }
+      width: 70%; }
   .gallery {
     display: grid;
     grid-template-areas: "text" "imag";
@@ -621,7 +621,7 @@ header {
     align-items: center;
     margin-bottom: 15px;
     padding: 0px 10px;
-    height: 200px; }
+    height: 100%; }
     .pages-banner h2 {
       font-size: 45px;
       color: #000000;
@@ -634,7 +634,7 @@ header {
     justify-content: center; }
     .photos .carousel {
       display: inline-flex;
-      width: 30%; }
+      width: 60%; }
   .gallery {
     display: grid;
     grid-template-areas: "text" "imag";
@@ -1170,7 +1170,7 @@ header {
     align-items: center;
     margin-bottom: 10px;
     padding: 0px 10px;
-    height: 100px; }
+    height: 100%; }
     .pages-banner h2 {
       font-size: 40px;
       color: #000000;
@@ -1183,7 +1183,7 @@ header {
     justify-content: center; }
     .photos .carousel {
       display: inline-flex;
-      width: 20%; }
+      width: 40%; }
   .gallery {
     display: grid;
     grid-template-areas: "text" "imag";
