@@ -85,7 +85,7 @@ header {
     justify-content: center; }
     .photos .carousel {
       display: inline-flex;
-      width: 70%; }
+      width: 100%; }
   .gallery {
     display: grid;
     grid-template-areas: "text" "imag";
@@ -634,7 +634,7 @@ header {
     justify-content: center; }
     .photos .carousel {
       display: inline-flex;
-      width: 60%; }
+      width: 90%; }
   .gallery {
     display: grid;
     grid-template-areas: "text" "imag";
@@ -1183,7 +1183,7 @@ header {
     justify-content: center; }
     .photos .carousel {
       display: inline-flex;
-      width: 40%; }
+      width: 70%; }
   .gallery {
     display: grid;
     grid-template-areas: "text" "imag";
