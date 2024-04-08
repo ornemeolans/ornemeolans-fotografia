@@ -85,7 +85,7 @@ header {
     justify-content: center; }
     .photos .carousel {
       display: inline-flex;
-      width: 100%; }
+      width: 70%; }
   .gallery {
     display: grid;
     grid-template-areas: "text" "imag";
